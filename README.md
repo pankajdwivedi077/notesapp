@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# NotesApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NotesApp is a MERN (MongoDB, Express, React, Node.js) project designed to replace the existing sticky note system with a modern and user-friendly platform for managing notes. This README.md file provides an overview of the project's user stories and functionalities.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with TechNotes, follow these steps:
 
-### `npm start`
+1. Clone this repository.
+2. Install the necessary dependencies using npm install.
+3. Set up MongoDB and configure the connection in the project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Run using npm start.
+2. This is frontend code.
 
-### `npm test`
+## Usage
+1. change baseUrl inside of src/app/api/apiSlice to the baseurl of your express server because this code is deployed to run this repo in local environment you have to change it.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+# User Stories for techNotes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  Provide easy navigation
+2.  Display current user and assigned role 
+3.  Provide a logout option 
+4.  Require users to login at least once per week
+5.  Provide a way to remove user access asap if needed 
+6.  Notes are either OPEN or COMPLETED 
+7.  Users can be Employees, Managers, or Admins 
+8.  Notes can only be deleted by Managers or Admins 
+9.  Anyone can create a note 
+10.  Employees can only view and edit their assigned notes  
+11.  Managers and Admins can view, edit, and delete all notes 
+12.  Only Managers and Admins can access User Settings 
+13.  Only Managers and Admins can create new users 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The frontend of this project is deployed on [render](https://render.com/). You can access it at [https://notesapp-glx7.onrender.com](https://notesapp-glx7.onrender.com).
 
-### `npm run eject`
+## Authors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+github: [pankaj dwivedi](https://github.com/pankajdwivedi077)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## contact me 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+linkedin: [linkedin](https://www.linkedin.com/in/pankaj-dwivedi-/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email: pankajdwivedi077@gmail.com
